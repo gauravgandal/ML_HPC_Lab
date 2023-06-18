@@ -42,7 +42,7 @@ int main()
      printf("\n%d\t%d\t%d",a[i],b[i],c[i]);
   }
 }
-output:
+/*output:
 bvcoew@bvcoew-ThinkCentre-E73:~$ g++ par_add_large_vectors.cpp -fopenmp
 bvcoew@bvcoew-ThinkCentre-E73:~$ ./a.out
 
@@ -148,4 +148,4 @@ bvcoew@bvcoew-ThinkCentre-E73:~$ ./a.out
 895	914	1809
 582	987	1569
 545	856	1401
-814	743	1557
+814	743	1557*/
