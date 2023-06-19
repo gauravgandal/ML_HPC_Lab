@@ -16,8 +16,13 @@ duration = time.time() - start
 print("Serial vector addition:", duration)
 
 start = time.time()
-c = np.add(a, b)
+c_parallel = np.add(a, b)
 duration = time.time() - start
 print("Parallel vector addition:", duration)
+
+# Print addition results
+print("Addition results:")
+print("Serial:   ", c)
+print("Parallel: ", c_parallel)
 
 print("***********************************")
